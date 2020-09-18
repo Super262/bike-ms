@@ -1,0 +1,965 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "3.9.1",
+  "hash": "894cf80893441a4c66bf",
+  "time": 4197,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": "html-to-draftjs.js"
+  },
+  "assets": [
+    {
+      "name": "html-to-draftjs.js",
+      "size": 6942,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "html-to-draftjs.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 12563,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "html-to-draftjs.js"
+      ],
+      "hash": "a000d01daff44cedd04d",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external \"immutable\"",
+          "name": "external \"immutable\"",
+          "index": 3,
+          "index2": 1,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 2,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "immutable",
+              "loc": "10:17-37"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/chunkBuilder.js",
+              "module": "./src/library/chunkBuilder.js",
+              "moduleName": "./src/library/chunkBuilder.js",
+              "type": "cjs require",
+              "userRequest": "immutable",
+              "loc": "8:17-37"
+            },
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockTypeForTag.js",
+              "module": "./src/library/getBlockTypeForTag.js",
+              "moduleName": "./src/library/getBlockTypeForTag.js",
+              "type": "cjs require",
+              "userRequest": "immutable",
+              "loc": "8:17-37"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockData.js",
+              "module": "./src/library/getBlockData.js",
+              "moduleName": "./src/library/getBlockData.js",
+              "type": "cjs require",
+              "userRequest": "immutable",
+              "loc": "8:17-37"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": 1,
+          "identifier": "external \"draft-js\"",
+          "name": "external \"draft-js\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 1,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "draft-js",
+              "loc": "8:15-34"
+            },
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getEntityId.js",
+              "module": "./src/library/getEntityId.js",
+              "moduleName": "./src/library/getEntityId.js",
+              "type": "cjs require",
+              "userRequest": "draft-js",
+              "loc": "7:15-34"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": 2,
+          "identifier": "multi ./src/library/index.js",
+          "name": "multi ./src/library/index.js",
+          "index": 0,
+          "index2": 9,
+          "size": 28,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 1,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "name": "./src/library/index.js",
+          "index": 1,
+          "index2": 8,
+          "size": 5790,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "multi ./src/library/index.js",
+          "issuerId": 2,
+          "issuerName": "multi ./src/library/index.js",
+          "profile": {
+            "factory": 57,
+            "building": 3310
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "multi ./src/library/index.js",
+              "module": "multi ./src/library/index.js",
+              "moduleName": "multi ./src/library/index.js",
+              "type": "single entry",
+              "userRequest": "./src/library/index.js",
+              "loc": "main:100000"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = htmlToDraft;\n\nvar _draftJs = require('draft-js');\n\nvar _immutable = require('immutable');\n\nvar _getSafeBodyFromHTML = require('./getSafeBodyFromHTML');\n\nvar _getSafeBodyFromHTML2 = _interopRequireDefault(_getSafeBodyFromHTML);\n\nvar _chunkBuilder = require('./chunkBuilder');\n\nvar _getBlockTypeForTag = require('./getBlockTypeForTag');\n\nvar _getBlockTypeForTag2 = _interopRequireDefault(_getBlockTypeForTag);\n\nvar _processInlineTag = require('./processInlineTag');\n\nvar _processInlineTag2 = _interopRequireDefault(_processInlineTag);\n\nvar _getBlockData = require('./getBlockData');\n\nvar _getBlockData2 = _interopRequireDefault(_getBlockData);\n\nvar _getEntityId = require('./getEntityId');\n\nvar _getEntityId2 = _interopRequireDefault(_getEntityId);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar SPACE = ' ';\nvar REGEX_NBSP = new RegExp('&nbsp;', 'g');\n\nvar firstBlock = true;\n\nfunction genFragment(node, inlineStyle, depth, lastList, inEntity, customChunkGenerator) {\n  var nodeName = node.nodeName.toLowerCase();\n\n  if (customChunkGenerator) {\n    var value = customChunkGenerator(nodeName, node);\n    if (value) {\n      var entityId = _draftJs.Entity.__create(value.type, value.mutability, value.data || {});\n      return { chunk: (0, _chunkBuilder.getAtomicBlockChunk)(entityId) };\n    }\n  }\n\n  if (nodeName === '#text' && node.textContent !== '\\n') {\n    return (0, _chunkBuilder.createTextChunk)(node, inlineStyle, inEntity);\n  }\n\n  if (nodeName === 'br') {\n    return { chunk: (0, _chunkBuilder.getSoftNewlineChunk)() };\n  }\n\n  if (nodeName === 'img' && node instanceof HTMLImageElement) {\n    var entityConfig = {};\n    entityConfig.src = node.getAttribute ? node.getAttribute('src') || node.src : node.src;\n    entityConfig.alt = node.alt;\n    entityConfig.height = node.style.height;\n    entityConfig.width = node.style.width;\n    if (node.style.float) {\n      entityConfig.alignment = node.style.float;\n    }\n    var _entityId = _draftJs.Entity.__create('IMAGE', 'MUTABLE', entityConfig);\n    return { chunk: (0, _chunkBuilder.getAtomicBlockChunk)(_entityId) };\n  }\n\n  if (nodeName === 'iframe' && node instanceof HTMLIFrameElement) {\n    var _entityConfig = {};\n    _entityConfig.src = node.getAttribute ? node.getAttribute('src') || node.src : node.src;\n    _entityConfig.height = node.height;\n    _entityConfig.width = node.width;\n    var _entityId2 = _draftJs.Entity.__create('EMBEDDED_LINK', 'MUTABLE', _entityConfig);\n    return { chunk: (0, _chunkBuilder.getAtomicBlockChunk)(_entityId2) };\n  }\n\n  var blockType = (0, _getBlockTypeForTag2.default)(nodeName, lastList);\n\n  var chunk = void 0;\n  if (blockType) {\n    if (nodeName === 'ul' || nodeName === 'ol') {\n      lastList = nodeName;\n      depth += 1;\n    } else {\n      if (blockType !== 'unordered-list-item' && blockType !== 'ordered-list-item') {\n        lastList = '';\n        depth = -1;\n      }\n      if (!firstBlock) {\n        chunk = (0, _chunkBuilder.getBlockDividerChunk)(blockType, depth, (0, _getBlockData2.default)(node));\n      } else {\n        chunk = (0, _chunkBuilder.getFirstBlockChunk)(blockType, (0, _getBlockData2.default)(node));\n        firstBlock = false;\n      }\n    }\n  }\n  if (!chunk) {\n    chunk = (0, _chunkBuilder.getEmptyChunk)();\n  }\n\n  inlineStyle = (0, _processInlineTag2.default)(nodeName, node, inlineStyle);\n\n  var child = node.firstChild;\n  while (child) {\n    var _entityId3 = (0, _getEntityId2.default)(child);\n\n    var _genFragment = genFragment(child, inlineStyle, depth, lastList, _entityId3 || inEntity, customChunkGenerator),\n        generatedChunk = _genFragment.chunk;\n\n    chunk = (0, _chunkBuilder.joinChunks)(chunk, generatedChunk);\n    var sibling = child.nextSibling;\n    child = sibling;\n  }\n  return { chunk: chunk };\n}\n\nfunction getChunkForHTML(html, customChunkGenerator) {\n  var sanitizedHtml = html.trim().replace(REGEX_NBSP, SPACE);\n  var safeBody = (0, _getSafeBodyFromHTML2.default)(sanitizedHtml);\n  if (!safeBody) {\n    return null;\n  }\n  firstBlock = true;\n\n  var _genFragment2 = genFragment(safeBody, new _immutable.OrderedSet(), -1, '', undefined, customChunkGenerator),\n      chunk = _genFragment2.chunk;\n\n  return { chunk: chunk };\n}\n\nfunction htmlToDraft(html, customChunkGenerator) {\n  var chunkData = getChunkForHTML(html, customChunkGenerator);\n  if (chunkData) {\n    var chunk = chunkData.chunk;\n\n    var entityMap = new _immutable.OrderedMap({});\n    chunk.entities && chunk.entities.forEach(function (entity) {\n      if (entity) {\n        entityMap = entityMap.set(entity, _draftJs.Entity.__get(entity));\n      }\n    });\n    var start = 0;\n    return {\n      contentBlocks: chunk.text.split('\\r').map(function (textBlock, ii) {\n        var end = start + textBlock.length;\n        var inlines = chunk && chunk.inlines.slice(start, end);\n        var entities = chunk && chunk.entities.slice(start, end);\n        var characterList = new _immutable.List(inlines.map(function (style, index) {\n          var data = { style: style, entity: null };\n          if (entities[index]) {\n            data.entity = entities[index];\n          }\n          return _draftJs.CharacterMetadata.create(data);\n        }));\n        start = end;\n        return new _draftJs.ContentBlock({\n          key: (0, _draftJs.genKey)(),\n          type: chunk && chunk.blocks[ii] && chunk.blocks[ii].type || 'unstyled',\n          depth: chunk && chunk.blocks[ii] && chunk.blocks[ii].depth,\n          data: chunk && chunk.blocks[ii] && chunk.blocks[ii].data || new _immutable.Map({}),\n          text: textBlock,\n          characterList: characterList\n        });\n      }),\n      entityMap: entityMap\n    };\n  }\n  return null;\n}"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getSafeBodyFromHTML.js",
+          "name": "./src/library/getSafeBodyFromHTML.js",
+          "index": 4,
+          "index2": 2,
+          "size": 464,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 12,
+            "building": 108
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "./getSafeBodyFromHTML",
+              "loc": "12:27-59"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar getSafeBodyFromHTML = function getSafeBodyFromHTML(html) {\n  var doc;\n  var root = null;\n  if (document.implementation && document.implementation.createHTMLDocument) {\n    doc = document.implementation.createHTMLDocument('foo');\n    doc.documentElement.innerHTML = html;\n    root = doc.getElementsByTagName('body')[0];\n  }\n  return root;\n};\n\nexports.default = getSafeBodyFromHTML;"
+        },
+        {
+          "id": 5,
+          "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/chunkBuilder.js",
+          "name": "./src/library/chunkBuilder.js",
+          "index": 5,
+          "index2": 3,
+          "size": 2505,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 14,
+            "building": 357,
+            "dependencies": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "./chunkBuilder",
+              "loc": "16:20-45"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.joinChunks = exports.getAtomicBlockChunk = exports.getBlockDividerChunk = exports.getFirstBlockChunk = exports.getEmptyChunk = exports.getSoftNewlineChunk = exports.createTextChunk = exports.getWhitespaceChunk = undefined;\n\nvar _immutable = require('immutable');\n\nvar SPACE = ' ';\nvar MAX_DEPTH = 4;\n\nvar getWhitespaceChunk = exports.getWhitespaceChunk = function getWhitespaceChunk(entityId) {\n  return {\n    text: SPACE,\n    inlines: [new _immutable.OrderedSet()],\n    entities: [entityId],\n    blocks: []\n  };\n};\n\nvar createTextChunk = exports.createTextChunk = function createTextChunk(node, inlineStyle, entityId) {\n  var text = node.textContent;\n  if (text.trim() === '') {\n    return { chunk: getWhitespaceChunk(entityId) };\n  }\n  return {\n    chunk: {\n      text: text,\n      inlines: Array(text.length).fill(inlineStyle),\n      entities: Array(text.length).fill(entityId),\n      blocks: []\n    }\n  };\n};\n\nvar getSoftNewlineChunk = exports.getSoftNewlineChunk = function getSoftNewlineChunk() {\n  return {\n    text: '\\n',\n    inlines: [new _immutable.OrderedSet()],\n    entities: new Array(1),\n    blocks: []\n  };\n};\n\nvar getEmptyChunk = exports.getEmptyChunk = function getEmptyChunk() {\n  return {\n    text: '',\n    inlines: [],\n    entities: [],\n    blocks: []\n  };\n};\n\nvar getFirstBlockChunk = exports.getFirstBlockChunk = function getFirstBlockChunk(blockType, data) {\n  return {\n    text: '',\n    inlines: [],\n    entities: [],\n    blocks: [{\n      type: blockType,\n      depth: 0,\n      data: data || new _immutable.Map({})\n    }]\n  };\n};\n\nvar getBlockDividerChunk = exports.getBlockDividerChunk = function getBlockDividerChunk(blockType, depth, data) {\n  return {\n    text: '\\r',\n    inlines: [],\n    entities: [],\n    blocks: [{\n      type: blockType,\n      depth: Math.max(0, Math.min(MAX_DEPTH, depth)),\n      data: data || new _immutable.Map({})\n    }]\n  };\n};\n\nvar getAtomicBlockChunk = exports.getAtomicBlockChunk = function getAtomicBlockChunk(entityId) {\n  return {\n    text: '\\r ',\n    inlines: [new _immutable.OrderedSet()],\n    entities: [entityId],\n    blocks: [{\n      type: 'atomic',\n      depth: 0,\n      data: new _immutable.Map({})\n    }]\n  };\n};\n\nvar joinChunks = exports.joinChunks = function joinChunks(A, B) {\n  return {\n    text: A.text + B.text,\n    inlines: A.inlines.concat(B.inlines),\n    entities: A.entities.concat(B.entities),\n    blocks: A.blocks.concat(B.blocks)\n  };\n};"
+        },
+        {
+          "id": 6,
+          "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockTypeForTag.js",
+          "name": "./src/library/getBlockTypeForTag.js",
+          "index": 6,
+          "index2": 4,
+          "size": 1218,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 15,
+            "building": 79,
+            "dependencies": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "./getBlockTypeForTag",
+              "loc": "18:26-57"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = getBlockTypeForTag;\n\nvar _immutable = require('immutable');\n\nvar blockRenderMap = new _immutable.Map({\n  'header-one': {\n    element: 'h1'\n  },\n  'header-two': {\n    element: 'h2'\n  },\n  'header-three': {\n    element: 'h3'\n  },\n  'header-four': {\n    element: 'h4'\n  },\n  'header-five': {\n    element: 'h5'\n  },\n  'header-six': {\n    element: 'h6'\n  },\n  'unordered-list-item': {\n    element: 'li',\n    wrapper: 'ul'\n  },\n  'ordered-list-item': {\n    element: 'li',\n    wrapper: 'ol'\n  },\n  blockquote: {\n    element: 'blockquote'\n  },\n  code: {\n    element: 'pre'\n  },\n  atomic: {\n    element: 'figure'\n  },\n  unstyled: {\n    element: 'p',\n    aliasedElements: ['div']\n  }\n});\n\nfunction getBlockTypeForTag(tag, lastList) {\n  var matchedTypes = blockRenderMap.filter(function (draftBlock) {\n    return draftBlock.element === tag && (!draftBlock.wrapper || draftBlock.wrapper === lastList) || draftBlock.wrapper === tag || draftBlock.aliasedElements && draftBlock.aliasedElements.indexOf(tag) > -1;\n  }).keySeq().toSet().toArray();\n\n  if (matchedTypes.length === 1) {\n    return matchedTypes[0];\n  }\n  return undefined;\n}"
+        },
+        {
+          "id": 7,
+          "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/processInlineTag.js",
+          "name": "./src/library/processInlineTag.js",
+          "index": 7,
+          "index2": 5,
+          "size": 1285,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 16,
+            "building": 184
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "./processInlineTag",
+              "loc": "22:24-53"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = processInlineTag;\nvar inlineTags = {\n  code: 'CODE',\n  del: 'STRIKETHROUGH',\n  em: 'ITALIC',\n  strong: 'BOLD',\n  ins: 'UNDERLINE',\n  sub: 'SUBSCRIPT',\n  sup: 'SUPERSCRIPT'\n};\n\nfunction processInlineTag(tag, node, currentStyle) {\n  var styleToCheck = inlineTags[tag];\n  var inlineStyle = void 0;\n  if (styleToCheck) {\n    inlineStyle = currentStyle.add(styleToCheck).toOrderedSet();\n  } else if (node instanceof HTMLElement) {\n    inlineStyle = currentStyle;\n    var htmlElement = node;\n    inlineStyle = inlineStyle.withMutations(function (style) {\n      var color = htmlElement.style.color;\n      var backgroundColor = htmlElement.style.backgroundColor;\n      var fontSize = htmlElement.style.fontSize;\n      var fontFamily = htmlElement.style.fontFamily.replace(/^\"|\"$/g, '');\n      if (color) {\n        style.add('color-' + color.replace(/ /g, ''));\n      }\n      if (backgroundColor) {\n        style.add('bgcolor-' + backgroundColor.replace(/ /g, ''));\n      }\n      if (fontSize) {\n        style.add('fontsize-' + fontSize.replace(/px$/g, ''));\n      }\n      if (fontFamily) {\n        style.add('fontfamily-' + fontFamily);\n      }\n    }).toOrderedSet();\n  }\n  return inlineStyle;\n}"
+        },
+        {
+          "id": 8,
+          "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockData.js",
+          "name": "./src/library/getBlockData.js",
+          "index": 8,
+          "index2": 6,
+          "size": 319,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 16,
+            "building": 374,
+            "dependencies": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "./getBlockData",
+              "loc": "26:20-45"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = getBlockData;\n\nvar _immutable = require('immutable');\n\nfunction getBlockData(node) {\n  if (node.style.textAlign) {\n    return new _immutable.Map({\n      'text-align': node.style.textAlign\n    });\n  }\n  return undefined;\n}"
+        },
+        {
+          "id": 9,
+          "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getEntityId.js",
+          "name": "./src/library/getEntityId.js",
+          "index": 9,
+          "index2": 7,
+          "size": 870,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "issuerId": 3,
+          "issuerName": "./src/library/index.js",
+          "profile": {
+            "factory": 17,
+            "building": 237,
+            "dependencies": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+              "module": "./src/library/index.js",
+              "moduleName": "./src/library/index.js",
+              "type": "cjs require",
+              "userRequest": "./getEntityId",
+              "loc": "30:19-43"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _draftJs = require('draft-js');\n\nvar getEntityId = function getEntityId(node) {\n  var entityId = undefined;\n  if (node instanceof HTMLAnchorElement) {\n    var entityConfig = {};\n    if (node.dataset && node.dataset.mention !== undefined) {\n      entityConfig.url = node.href;\n      entityConfig.text = node.innerHTML;\n      entityConfig.value = node.dataset.value;\n      entityId = _draftJs.Entity.__create('MENTION', 'IMMUTABLE', entityConfig);\n    } else {\n      entityConfig.url = node.getAttribute ? node.getAttribute('href') || node.href : node.href;\n      entityConfig.title = node.innerHTML;\n      entityConfig.targetOption = node.target;\n      entityId = _draftJs.Entity.__create('LINK', 'MUTABLE', entityConfig);\n    }\n  }\n  return entityId;\n};\n\nexports.default = getEntityId;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 2,
+          "module": "multi ./src/library/index.js",
+          "moduleIdentifier": "multi ./src/library/index.js",
+          "moduleName": "multi ./src/library/index.js",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "external \"immutable\"",
+      "name": "external \"immutable\"",
+      "index": 3,
+      "index2": 1,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 2,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "immutable",
+          "loc": "10:17-37"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/chunkBuilder.js",
+          "module": "./src/library/chunkBuilder.js",
+          "moduleName": "./src/library/chunkBuilder.js",
+          "type": "cjs require",
+          "userRequest": "immutable",
+          "loc": "8:17-37"
+        },
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockTypeForTag.js",
+          "module": "./src/library/getBlockTypeForTag.js",
+          "moduleName": "./src/library/getBlockTypeForTag.js",
+          "type": "cjs require",
+          "userRequest": "immutable",
+          "loc": "8:17-37"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockData.js",
+          "module": "./src/library/getBlockData.js",
+          "moduleName": "./src/library/getBlockData.js",
+          "type": "cjs require",
+          "userRequest": "immutable",
+          "loc": "8:17-37"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": 1,
+      "identifier": "external \"draft-js\"",
+      "name": "external \"draft-js\"",
+      "index": 2,
+      "index2": 0,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 1,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "draft-js",
+          "loc": "8:15-34"
+        },
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getEntityId.js",
+          "module": "./src/library/getEntityId.js",
+          "moduleName": "./src/library/getEntityId.js",
+          "type": "cjs require",
+          "userRequest": "draft-js",
+          "loc": "7:15-34"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": 2,
+      "identifier": "multi ./src/library/index.js",
+      "name": "multi ./src/library/index.js",
+      "index": 0,
+      "index2": 9,
+      "size": 28,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 1,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "name": "./src/library/index.js",
+      "index": 1,
+      "index2": 8,
+      "size": 5790,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "multi ./src/library/index.js",
+      "issuerId": 2,
+      "issuerName": "multi ./src/library/index.js",
+      "profile": {
+        "factory": 57,
+        "building": 3310
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "multi ./src/library/index.js",
+          "module": "multi ./src/library/index.js",
+          "moduleName": "multi ./src/library/index.js",
+          "type": "single entry",
+          "userRequest": "./src/library/index.js",
+          "loc": "main:100000"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = htmlToDraft;\n\nvar _draftJs = require('draft-js');\n\nvar _immutable = require('immutable');\n\nvar _getSafeBodyFromHTML = require('./getSafeBodyFromHTML');\n\nvar _getSafeBodyFromHTML2 = _interopRequireDefault(_getSafeBodyFromHTML);\n\nvar _chunkBuilder = require('./chunkBuilder');\n\nvar _getBlockTypeForTag = require('./getBlockTypeForTag');\n\nvar _getBlockTypeForTag2 = _interopRequireDefault(_getBlockTypeForTag);\n\nvar _processInlineTag = require('./processInlineTag');\n\nvar _processInlineTag2 = _interopRequireDefault(_processInlineTag);\n\nvar _getBlockData = require('./getBlockData');\n\nvar _getBlockData2 = _interopRequireDefault(_getBlockData);\n\nvar _getEntityId = require('./getEntityId');\n\nvar _getEntityId2 = _interopRequireDefault(_getEntityId);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar SPACE = ' ';\nvar REGEX_NBSP = new RegExp('&nbsp;', 'g');\n\nvar firstBlock = true;\n\nfunction genFragment(node, inlineStyle, depth, lastList, inEntity, customChunkGenerator) {\n  var nodeName = node.nodeName.toLowerCase();\n\n  if (customChunkGenerator) {\n    var value = customChunkGenerator(nodeName, node);\n    if (value) {\n      var entityId = _draftJs.Entity.__create(value.type, value.mutability, value.data || {});\n      return { chunk: (0, _chunkBuilder.getAtomicBlockChunk)(entityId) };\n    }\n  }\n\n  if (nodeName === '#text' && node.textContent !== '\\n') {\n    return (0, _chunkBuilder.createTextChunk)(node, inlineStyle, inEntity);\n  }\n\n  if (nodeName === 'br') {\n    return { chunk: (0, _chunkBuilder.getSoftNewlineChunk)() };\n  }\n\n  if (nodeName === 'img' && node instanceof HTMLImageElement) {\n    var entityConfig = {};\n    entityConfig.src = node.getAttribute ? node.getAttribute('src') || node.src : node.src;\n    entityConfig.alt = node.alt;\n    entityConfig.height = node.style.height;\n    entityConfig.width = node.style.width;\n    if (node.style.float) {\n      entityConfig.alignment = node.style.float;\n    }\n    var _entityId = _draftJs.Entity.__create('IMAGE', 'MUTABLE', entityConfig);\n    return { chunk: (0, _chunkBuilder.getAtomicBlockChunk)(_entityId) };\n  }\n\n  if (nodeName === 'iframe' && node instanceof HTMLIFrameElement) {\n    var _entityConfig = {};\n    _entityConfig.src = node.getAttribute ? node.getAttribute('src') || node.src : node.src;\n    _entityConfig.height = node.height;\n    _entityConfig.width = node.width;\n    var _entityId2 = _draftJs.Entity.__create('EMBEDDED_LINK', 'MUTABLE', _entityConfig);\n    return { chunk: (0, _chunkBuilder.getAtomicBlockChunk)(_entityId2) };\n  }\n\n  var blockType = (0, _getBlockTypeForTag2.default)(nodeName, lastList);\n\n  var chunk = void 0;\n  if (blockType) {\n    if (nodeName === 'ul' || nodeName === 'ol') {\n      lastList = nodeName;\n      depth += 1;\n    } else {\n      if (blockType !== 'unordered-list-item' && blockType !== 'ordered-list-item') {\n        lastList = '';\n        depth = -1;\n      }\n      if (!firstBlock) {\n        chunk = (0, _chunkBuilder.getBlockDividerChunk)(blockType, depth, (0, _getBlockData2.default)(node));\n      } else {\n        chunk = (0, _chunkBuilder.getFirstBlockChunk)(blockType, (0, _getBlockData2.default)(node));\n        firstBlock = false;\n      }\n    }\n  }\n  if (!chunk) {\n    chunk = (0, _chunkBuilder.getEmptyChunk)();\n  }\n\n  inlineStyle = (0, _processInlineTag2.default)(nodeName, node, inlineStyle);\n\n  var child = node.firstChild;\n  while (child) {\n    var _entityId3 = (0, _getEntityId2.default)(child);\n\n    var _genFragment = genFragment(child, inlineStyle, depth, lastList, _entityId3 || inEntity, customChunkGenerator),\n        generatedChunk = _genFragment.chunk;\n\n    chunk = (0, _chunkBuilder.joinChunks)(chunk, generatedChunk);\n    var sibling = child.nextSibling;\n    child = sibling;\n  }\n  return { chunk: chunk };\n}\n\nfunction getChunkForHTML(html, customChunkGenerator) {\n  var sanitizedHtml = html.trim().replace(REGEX_NBSP, SPACE);\n  var safeBody = (0, _getSafeBodyFromHTML2.default)(sanitizedHtml);\n  if (!safeBody) {\n    return null;\n  }\n  firstBlock = true;\n\n  var _genFragment2 = genFragment(safeBody, new _immutable.OrderedSet(), -1, '', undefined, customChunkGenerator),\n      chunk = _genFragment2.chunk;\n\n  return { chunk: chunk };\n}\n\nfunction htmlToDraft(html, customChunkGenerator) {\n  var chunkData = getChunkForHTML(html, customChunkGenerator);\n  if (chunkData) {\n    var chunk = chunkData.chunk;\n\n    var entityMap = new _immutable.OrderedMap({});\n    chunk.entities && chunk.entities.forEach(function (entity) {\n      if (entity) {\n        entityMap = entityMap.set(entity, _draftJs.Entity.__get(entity));\n      }\n    });\n    var start = 0;\n    return {\n      contentBlocks: chunk.text.split('\\r').map(function (textBlock, ii) {\n        var end = start + textBlock.length;\n        var inlines = chunk && chunk.inlines.slice(start, end);\n        var entities = chunk && chunk.entities.slice(start, end);\n        var characterList = new _immutable.List(inlines.map(function (style, index) {\n          var data = { style: style, entity: null };\n          if (entities[index]) {\n            data.entity = entities[index];\n          }\n          return _draftJs.CharacterMetadata.create(data);\n        }));\n        start = end;\n        return new _draftJs.ContentBlock({\n          key: (0, _draftJs.genKey)(),\n          type: chunk && chunk.blocks[ii] && chunk.blocks[ii].type || 'unstyled',\n          depth: chunk && chunk.blocks[ii] && chunk.blocks[ii].depth,\n          data: chunk && chunk.blocks[ii] && chunk.blocks[ii].data || new _immutable.Map({}),\n          text: textBlock,\n          characterList: characterList\n        });\n      }),\n      entityMap: entityMap\n    };\n  }\n  return null;\n}"
+    },
+    {
+      "id": 4,
+      "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getSafeBodyFromHTML.js",
+      "name": "./src/library/getSafeBodyFromHTML.js",
+      "index": 4,
+      "index2": 2,
+      "size": 464,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 12,
+        "building": 108
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "./getSafeBodyFromHTML",
+          "loc": "12:27-59"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar getSafeBodyFromHTML = function getSafeBodyFromHTML(html) {\n  var doc;\n  var root = null;\n  if (document.implementation && document.implementation.createHTMLDocument) {\n    doc = document.implementation.createHTMLDocument('foo');\n    doc.documentElement.innerHTML = html;\n    root = doc.getElementsByTagName('body')[0];\n  }\n  return root;\n};\n\nexports.default = getSafeBodyFromHTML;"
+    },
+    {
+      "id": 5,
+      "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/chunkBuilder.js",
+      "name": "./src/library/chunkBuilder.js",
+      "index": 5,
+      "index2": 3,
+      "size": 2505,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 14,
+        "building": 357,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "./chunkBuilder",
+          "loc": "16:20-45"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.joinChunks = exports.getAtomicBlockChunk = exports.getBlockDividerChunk = exports.getFirstBlockChunk = exports.getEmptyChunk = exports.getSoftNewlineChunk = exports.createTextChunk = exports.getWhitespaceChunk = undefined;\n\nvar _immutable = require('immutable');\n\nvar SPACE = ' ';\nvar MAX_DEPTH = 4;\n\nvar getWhitespaceChunk = exports.getWhitespaceChunk = function getWhitespaceChunk(entityId) {\n  return {\n    text: SPACE,\n    inlines: [new _immutable.OrderedSet()],\n    entities: [entityId],\n    blocks: []\n  };\n};\n\nvar createTextChunk = exports.createTextChunk = function createTextChunk(node, inlineStyle, entityId) {\n  var text = node.textContent;\n  if (text.trim() === '') {\n    return { chunk: getWhitespaceChunk(entityId) };\n  }\n  return {\n    chunk: {\n      text: text,\n      inlines: Array(text.length).fill(inlineStyle),\n      entities: Array(text.length).fill(entityId),\n      blocks: []\n    }\n  };\n};\n\nvar getSoftNewlineChunk = exports.getSoftNewlineChunk = function getSoftNewlineChunk() {\n  return {\n    text: '\\n',\n    inlines: [new _immutable.OrderedSet()],\n    entities: new Array(1),\n    blocks: []\n  };\n};\n\nvar getEmptyChunk = exports.getEmptyChunk = function getEmptyChunk() {\n  return {\n    text: '',\n    inlines: [],\n    entities: [],\n    blocks: []\n  };\n};\n\nvar getFirstBlockChunk = exports.getFirstBlockChunk = function getFirstBlockChunk(blockType, data) {\n  return {\n    text: '',\n    inlines: [],\n    entities: [],\n    blocks: [{\n      type: blockType,\n      depth: 0,\n      data: data || new _immutable.Map({})\n    }]\n  };\n};\n\nvar getBlockDividerChunk = exports.getBlockDividerChunk = function getBlockDividerChunk(blockType, depth, data) {\n  return {\n    text: '\\r',\n    inlines: [],\n    entities: [],\n    blocks: [{\n      type: blockType,\n      depth: Math.max(0, Math.min(MAX_DEPTH, depth)),\n      data: data || new _immutable.Map({})\n    }]\n  };\n};\n\nvar getAtomicBlockChunk = exports.getAtomicBlockChunk = function getAtomicBlockChunk(entityId) {\n  return {\n    text: '\\r ',\n    inlines: [new _immutable.OrderedSet()],\n    entities: [entityId],\n    blocks: [{\n      type: 'atomic',\n      depth: 0,\n      data: new _immutable.Map({})\n    }]\n  };\n};\n\nvar joinChunks = exports.joinChunks = function joinChunks(A, B) {\n  return {\n    text: A.text + B.text,\n    inlines: A.inlines.concat(B.inlines),\n    entities: A.entities.concat(B.entities),\n    blocks: A.blocks.concat(B.blocks)\n  };\n};"
+    },
+    {
+      "id": 6,
+      "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockTypeForTag.js",
+      "name": "./src/library/getBlockTypeForTag.js",
+      "index": 6,
+      "index2": 4,
+      "size": 1218,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 15,
+        "building": 79,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "./getBlockTypeForTag",
+          "loc": "18:26-57"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = getBlockTypeForTag;\n\nvar _immutable = require('immutable');\n\nvar blockRenderMap = new _immutable.Map({\n  'header-one': {\n    element: 'h1'\n  },\n  'header-two': {\n    element: 'h2'\n  },\n  'header-three': {\n    element: 'h3'\n  },\n  'header-four': {\n    element: 'h4'\n  },\n  'header-five': {\n    element: 'h5'\n  },\n  'header-six': {\n    element: 'h6'\n  },\n  'unordered-list-item': {\n    element: 'li',\n    wrapper: 'ul'\n  },\n  'ordered-list-item': {\n    element: 'li',\n    wrapper: 'ol'\n  },\n  blockquote: {\n    element: 'blockquote'\n  },\n  code: {\n    element: 'pre'\n  },\n  atomic: {\n    element: 'figure'\n  },\n  unstyled: {\n    element: 'p',\n    aliasedElements: ['div']\n  }\n});\n\nfunction getBlockTypeForTag(tag, lastList) {\n  var matchedTypes = blockRenderMap.filter(function (draftBlock) {\n    return draftBlock.element === tag && (!draftBlock.wrapper || draftBlock.wrapper === lastList) || draftBlock.wrapper === tag || draftBlock.aliasedElements && draftBlock.aliasedElements.indexOf(tag) > -1;\n  }).keySeq().toSet().toArray();\n\n  if (matchedTypes.length === 1) {\n    return matchedTypes[0];\n  }\n  return undefined;\n}"
+    },
+    {
+      "id": 7,
+      "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/processInlineTag.js",
+      "name": "./src/library/processInlineTag.js",
+      "index": 7,
+      "index2": 5,
+      "size": 1285,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 16,
+        "building": 184
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "./processInlineTag",
+          "loc": "22:24-53"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = processInlineTag;\nvar inlineTags = {\n  code: 'CODE',\n  del: 'STRIKETHROUGH',\n  em: 'ITALIC',\n  strong: 'BOLD',\n  ins: 'UNDERLINE',\n  sub: 'SUBSCRIPT',\n  sup: 'SUPERSCRIPT'\n};\n\nfunction processInlineTag(tag, node, currentStyle) {\n  var styleToCheck = inlineTags[tag];\n  var inlineStyle = void 0;\n  if (styleToCheck) {\n    inlineStyle = currentStyle.add(styleToCheck).toOrderedSet();\n  } else if (node instanceof HTMLElement) {\n    inlineStyle = currentStyle;\n    var htmlElement = node;\n    inlineStyle = inlineStyle.withMutations(function (style) {\n      var color = htmlElement.style.color;\n      var backgroundColor = htmlElement.style.backgroundColor;\n      var fontSize = htmlElement.style.fontSize;\n      var fontFamily = htmlElement.style.fontFamily.replace(/^\"|\"$/g, '');\n      if (color) {\n        style.add('color-' + color.replace(/ /g, ''));\n      }\n      if (backgroundColor) {\n        style.add('bgcolor-' + backgroundColor.replace(/ /g, ''));\n      }\n      if (fontSize) {\n        style.add('fontsize-' + fontSize.replace(/px$/g, ''));\n      }\n      if (fontFamily) {\n        style.add('fontfamily-' + fontFamily);\n      }\n    }).toOrderedSet();\n  }\n  return inlineStyle;\n}"
+    },
+    {
+      "id": 8,
+      "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getBlockData.js",
+      "name": "./src/library/getBlockData.js",
+      "index": 8,
+      "index2": 6,
+      "size": 319,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 16,
+        "building": 374,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "./getBlockData",
+          "loc": "26:20-45"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = getBlockData;\n\nvar _immutable = require('immutable');\n\nfunction getBlockData(node) {\n  if (node.style.textAlign) {\n    return new _immutable.Map({\n      'text-align': node.style.textAlign\n    });\n  }\n  return undefined;\n}"
+    },
+    {
+      "id": 9,
+      "identifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/getEntityId.js",
+      "name": "./src/library/getEntityId.js",
+      "index": 9,
+      "index2": 7,
+      "size": 870,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+      "issuerId": 3,
+      "issuerName": "./src/library/index.js",
+      "profile": {
+        "factory": 17,
+        "building": 237,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/jyotipuri/humble/html-to-draftjs/node_modules/babel-loader/lib/index.js!/Users/jyotipuri/humble/html-to-draftjs/src/library/index.js",
+          "module": "./src/library/index.js",
+          "moduleName": "./src/library/index.js",
+          "type": "cjs require",
+          "userRequest": "./getEntityId",
+          "loc": "30:19-43"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _draftJs = require('draft-js');\n\nvar getEntityId = function getEntityId(node) {\n  var entityId = undefined;\n  if (node instanceof HTMLAnchorElement) {\n    var entityConfig = {};\n    if (node.dataset && node.dataset.mention !== undefined) {\n      entityConfig.url = node.href;\n      entityConfig.text = node.innerHTML;\n      entityConfig.value = node.dataset.value;\n      entityId = _draftJs.Entity.__create('MENTION', 'IMMUTABLE', entityConfig);\n    } else {\n      entityConfig.url = node.getAttribute ? node.getAttribute('href') || node.href : node.href;\n      entityConfig.title = node.innerHTML;\n      entityConfig.targetOption = node.target;\n      entityId = _draftJs.Entity.__create('LINK', 'MUTABLE', entityConfig);\n    }\n  }\n  return entityId;\n};\n\nexports.default = getEntityId;"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
