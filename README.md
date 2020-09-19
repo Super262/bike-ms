@@ -10,8 +10,7 @@
 
 ### 1. 任务概述
 
-共享单车公司的员工在正常的运营中需要对用户信息、订单信息、员工信息、车辆信息和城市信息进行管理，利用共享单车管理系统及时了解各个环节中信息的变更，有利于高管理效率。
-一套功能强大而又便于使用的共享单车管理系统，适用于用户管理、订单管理和员工管理。该系统的主要功能有：城市信息、单车信息的查询，用户信息的查询，订单的查询、结束，员工的权限管理，异常处理。系统开发的总体任务是实现共享单车运营相关的各种信息的系统化、规范化和自动化。
+共享单车公司的员工在正常的运营中需要对用户信息、订单信息、员工信息、车辆信息和城市信息进行管理，利用共享单车管理系统及时了解各个环节中信息的变更，有利于高管理效率。一套功能强大而又便于使用的共享单车管理系统，适用于用户管理、订单管理和员工管理。该系统的主要功能有：城市信息、单车信息的查询，用户信息的查询，订单的查询、结束，员工的权限管理，异常处理。系统开发的总体任务是实现共享单车运营相关的各种信息的系统化、规范化和自动化。
 
 ### 2. 任务目标
 
@@ -107,62 +106,76 @@
 ### 1. 索引
 
 #### 1) bike表
-  a) 以id为索引
-  b) 以city为索引
+```
+a) 以id为索引
+b) 以city为索引
+```
   
 #### 2) bikelog表
-  a) 以id为索引
-  b) 以bike_id为索引
-  c) 以position为索引
-  d) 以time为索引
+```
+a) 以id为索引
+b) 以bike_id为索引
+c) 以position为索引
+d) 以time为索引
+```
 
 #### 3) city表
-  a) 以id为索引
-  b) 以name为索引
-  c) 以 leader 为索引
-  d) 以op_mode为索引
-  e) 以op_time为索引
-  f) 以operator为索引
-  g) 以use_mode为索引
+```
+a) 以id为索引
+b) 以name为索引
+c) 以 leader 为索引
+d) 以op_mode为索引
+e) 以op_time为索引
+f) 以operator为索引
+g) 以use_mode为索
+```
   
 #### 4) orderlog表
-  a) 以id为索引
-  b) 以actual_cost为索引
-  c) 以bike_id为索引
-  d) 以city为索引
-  e) 以duration为索引
-  f) 以finish_time为索引
-  g) 以mileage为索引
-  h) 以phone为索引
-  i) 以standard_cost为索引
-  j) 以start_time为索引
-  k) 以status为索引
-  l) 以username为索引
+```
+a) 以id为索引
+b) 以actual_cost为索引
+c) 以bike_id为索引
+d) 以city为索引
+e) 以duration为索引
+f) 以finish_time为索引
+g) 以mileage为索引
+h) 以phone为索引
+i) 以standard_cost为索引
+j) 以start_time为索引
+k) 以status为索引
+l) 以username为索引
+```
   
 #### 5) role表
-  a) 以id为索引
-  b) 以name为索引
-  c) 以authorize_time为索引
-  d) 以create_time为索引
-  e) 以jurisdiction为索引
-  f) 以operator为索引
-  g) 以status为索引
+```
+a) 以id为索引
+b) 以name为索引
+c) 以authorize_time为索引
+d) 以create_time为索引
+e) 以jurisdiction为索引
+f) 以operator为索引
+g) 以status为索引
+```
 
 #### 6) staff表
-  a) 以id为索引
-  b) 以name为索引
-  c) 以password为索引
-  d) 以phone为索引
-  e) 以post为索引
-  f) 以role为索引
-  g) 以sex为索引
+```
+a) 以id为索引
+b) 以name为索引
+c) 以password为索引
+d) 以phone为索引
+e) 以post为索引
+f) 以role为索引
+g) 以sex为索引
+```
   
 #### 7) user表
-  a) 以id为索引
-  b) 以name为索引
-  c) 以city为索引
-  d) 以money为索引
-  e) 以phone为索引
+```
+a) 以id为索引
+b) 以name为索引
+c) 以city为索引
+d) 以money为索引
+e) 以phone为索引
+```
   
 ### 2. 安全机制
 
